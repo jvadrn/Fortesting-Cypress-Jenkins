@@ -33,12 +33,12 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     }
   
     // Validasi Nomor Telpon
-    if (!/^[0-9]{9,15}$/.test(phone.value)) {
-      isValid = false;
-      document.getElementById('phoneError').textContent = 'Nomor telpon hanya boleh angka, minimal 9 digit, maksimal 15 digit.';
-    } else {
-      document.getElementById('phoneError').textContent = '';
-    }
+    // if (!/^[0-9]{9,15}$/.test(phone.value)) {
+    //   isValid = false;
+    //   document.getElementById('phoneError').textContent = 'Nomor telpon hanya boleh angka, minimal 9 digit, maksimal 15 digit.';
+    // } else {
+    //   document.getElementById('phoneError').textContent = '';
+    // }
   
     if (isValid) {
       const formData = {
